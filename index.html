@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <title>The Oracle</title> 
+        <link rel="stylesheet" href="css/Styles.css">
+        <script type="module" src="index.js"></script>
+    </head>
+    <body>
+        <div class="banner"> 
+            <table id="banner">
+            <tr> 
+                
+                <h1>The Oracle</h1>    
+                <IMG SRC="Oracle.png" >
+            </tr>
+            </table>
+        </div>
+        
+        
+
+        <div id="dataInput">
+            <h2 id="inputDataTitle">Ask the oracle for the odds of an event and it shall answer...</h2>
+                
+                <form>
+                    <div class="left">
+                        <label for="source"> Enter the scenario you wish to recieve the odds of </label>
+                    </div>
+                    <div class ="inputSource">
+                        <input type = "text" id="source" name="source"/>
+                    </div>
+
+                    <input type = "button" id="buttonClick" onclick = "getOdds(source.value)" value = "Check site">  
+
+                </form>
+        </div>
+        
+
+        
+        
+
+        
+    </body>
+</html>

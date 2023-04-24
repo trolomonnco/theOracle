@@ -1,0 +1,130 @@
+body{
+  margin : 0;
+  text-align: center;
+  font-family: monospace;
+  background-color: black;
+}
+p{
+  padding: 8px;
+  margin: 0;
+  color: white;
+}
+h1{
+  margin:0;
+  padding: 20px;
+}
+h2{
+  padding: 5px;
+  color: white;
+}
+h3{
+  padding: 5px;
+  
+}
+hr{
+  border: 5px dashed #FFD4D4;
+ 
+}
+
+label{
+  color: white;
+}
+
+.right{
+ position: absolute;
+ max-width: 40%;
+ max-height: 10%;
+ margin-left: 55%;
+ padding: 6px;
+ font-size: 20px;
+
+
+}
+
+.left{
+  position: absolute;
+  max-width: 40%;
+  max-height: 10%;
+  margin-left: 19%;
+  padding: 6px;
+  font-size: 20px;
+  
+}
+.inputSource{
+  position: absolute;
+  max-width: 40%;
+  max-height: 10%;
+  margin-left: 24%;
+  margin-top: 2%;
+}
+.inputRendered{
+  position: absolute;
+ max-width: 40%;
+ max-height: 10%;
+ margin-left: 66%;
+ margin-top: 2%;
+}
+
+
+.cors{
+  background-color: #FFD4D4;
+  border-style: solid;
+  border-color: black;
+  color: black;
+}
+
+img{
+  
+  
+}
+.dataInput{
+  
+
+}
+.disclaimer{
+  background-color: #AACB73;
+  color: White;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 0px;
+  border-style: solid;
+  border-color: gray;
+  
+}
+.banner{
+background-color: black;
+color: white;
+}
+
+
+.logo{
+  max-width: 5%;
+}
+
+.logo img{
+  position: absolute;
+  max-width: 75px;
+  max-height: 75px;
+  
+}
+
+#buttonClick {
+  background-color: black; 
+  border: 5px solid white;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#buttonClick:hover {
+  background-color: white; /* Green */
+  border:  5px solid black;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
