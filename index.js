@@ -1,4 +1,3 @@
-import { Configuration, OpenAIApi } from "openai";
 
 const configuration = new Configuration({
   apiKey: "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",
